@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f5f8ff;
+ 
+}
+.wrapper {
+  /* display: flex; */
+  width: 95%;
+  margin: 0 auto;
+}
+#search-container {
+  margin: 1em 0;
+}
+#search-container input{
+  background-color: transparent;
+  width: 40%;
+  border-bottom: 2px solid #110f29;
+  padding: 1em 0.3em;
+}
+#search-container input:focus{
+  border-bottom-color: #6759ff;
+}
+#search-container button{
+  padding: 1em 2em;
+  margin-left: 1em;
+  background-color: #6759ff;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  margin-top: 0.5em;
+}
+
+.button-value{
+  border: #6759ff solid 2px;
+  padding: 1em 2.2em;
+  border-radius: 1em;
+  background-color: transparent;
+  color: #6759ff;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #6759ff;
+  color: white;
+}
+
+
+.card{
+    background-color: white;
+    max-width: 18em;
+    margin-top: 1em;
+    padding: 1em;
+    border-radius:8px ;
+    box-shadow: 1em 2em 2.2em rgba(1, 2, 68, .08);
+    -webkit-border-radius:8px ;
+    -moz-border-radius:8px ;
+    -ms-border-radius:8px ;
+    -o-border-radius:8px ;
+}
+.image-container{
+    text-align: center;
+}
+img{
+    border-radius: 50% 20% / 10% 40%;
+    border: 2px solid #e4ce3e;
+    background-color: #f5f8ff;
+    max-width: 100%;
+    object-fit: contain;
+    height: 15em;
+    -webkit-border-radius: 50% 20% / 10% 40%;
+    -moz-border-radius: 50% 20% / 10% 40%;
+    -ms-border-radius: 50% 20% / 10% 40%;
+    -o-border-radius: 50% 20% / 10% 40%;
+}
+.container{
+    padding-top: 1em;
+    color: #110f29;
+}
+.container h3{
+    font-weight: 500;
+    color:rgb(76, 0, 255);
+}
+.container h6{
+    color: tomato;
+}
+.hide{
+    display: none;
+}
+@media  (max-width: 750px) {
+    #products{
+        display: grid;
+        grid-template-columns:  auto auto;
+        grid-column-gap:10px ;
+        padding: 2em 1em ;
+}
+img{
+    max-width: 100%;
+    object-fit: contain;
+    height: 10em;
+}
+}
+@media (min-width: 600px) {
+    #products{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-column-gap:10px ;
+        padding: 2em 1em ;
+}
+}
+@media(min-width: 1100px) {
+    #products{
+        display: grid;
+        grid-template-columns:auto auto auto auto auto auto;
+        grid-column-gap:10px ;
+        padding: 2em 1em ;
+}
+  }
