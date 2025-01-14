@@ -19,3 +19,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+Usage:
+Clone the repository to your local machine.
+Install dependencies using npm install (or yarn install).
+Start the server with npm start to begin generating fake categories.
+Access the API endpoints to fetch random categories with data ready to populate your store.
